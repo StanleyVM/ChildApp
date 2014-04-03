@@ -23,6 +23,7 @@
 		AAFE80C418805FA000C3C552 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFE809F18805FA000C3C552 /* Foundation.framework */; };
 		AAFE80CC18805FA000C3C552 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAFE80CA18805FA000C3C552 /* InfoPlist.strings */; };
 		AAFE80CF18805FA000C3C552 /* ChildTrapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFE80CE18805FA000C3C552 /* ChildTrapTests.m */; };
+		AAFE80D918805FE000C3C552 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFE80D818805FE000C3C552 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		AAFE80CB18805FA000C3C552 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AAFE80CD18805FA000C3C552 /* ChildTrapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChildTrapTests.h; sourceTree = "<group>"; };
 		AAFE80CE18805FA000C3C552 /* ChildTrapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildTrapTests.m; sourceTree = "<group>"; };
+		AAFE80D818805FE000C3C552 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAFE80D918805FE000C3C552 /* CoreLocation.framework in Frameworks */,
 				AAFE809E18805FA000C3C552 /* UIKit.framework in Frameworks */,
 				AAFE80A018805FA000C3C552 /* Foundation.framework in Frameworks */,
 				AAFE80A218805FA000C3C552 /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +90,7 @@
 		AAFE809118805FA000C3C552 = {
 			isa = PBXGroup;
 			children = (
+				AAFE80D818805FE000C3C552 /* CoreLocation.framework */,
 				AAFE80A318805FA000C3C552 /* ChildTrap */,
 				AAFE80C718805FA000C3C552 /* ChildTrapTests */,
 				AAFE809C18805FA000C3C552 /* Frameworks */,
